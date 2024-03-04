@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 100px 0 auto;
+  margin: 100px 0;
 }
 
 h1,
@@ -54,12 +54,16 @@ a:hover {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--secondary-color);
 }
 
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.headline-app {
+  text-align: start;
 }
 
 .homepage-link {
@@ -73,7 +77,7 @@ a:hover {
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 10px 20px;
 }
 
 .app-link {
@@ -96,4 +100,30 @@ a:hover {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+
+  .headline-app {
+    text-align: center;
+  }
 }
