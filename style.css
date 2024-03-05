@@ -5,7 +5,8 @@
 }
 
 body {
-  margin: 100px 0;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -102,10 +103,27 @@ a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  p {
+    text-align: center;
+  }
+
+  .headline-app {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  .app-link {
+    display: block;
+    text-align: center;
+  }
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
-    line-height: 1.5;
+    line-height: 1;
+    margin-bottom: 20px;
   }
 
   h2 {
