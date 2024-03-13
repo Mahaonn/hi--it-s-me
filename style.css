@@ -34,10 +34,6 @@ p {
   line-height: 1.5;
 }
 
-a:hover {
-  color: #0a58ca;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
