@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Turns off the annoying error message: 'This diff contains a change in line endings from 'LF' to 'CRLF'.
 * text eol=lf
