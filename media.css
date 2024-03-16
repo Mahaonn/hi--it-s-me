@@ -1,0 +1,23 @@
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 38px;
+  }
+  .header__text-about {
+    font-size: 14px;
+  }
+  .header__nav {
+    justify-content: flex-end;
+  }
+  .header__menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__nav {
+    justify-content: center;
+  }
+  .header__burger {
+    display: none;
+  }
+}
