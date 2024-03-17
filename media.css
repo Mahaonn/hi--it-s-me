@@ -21,3 +21,14 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .img {
+    max-width: 100%;
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+    object-position: 60% 50%;
+    padding-bottom: 0;
+  }
+}
