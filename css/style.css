@@ -177,10 +177,10 @@ a.link {
 .about-section {
   padding: 50px 0;
 }
-
+/* 
 .img {
   width: 100%;
-}
+} */
 
 .about-section__text {
   color: var(--color-primary-gray);
