@@ -2,11 +2,11 @@
 :root {
   --color-primary-dark: #17171a;
   --color-primary-gray: rgba(192, 192, 192, 0.913);
+  --color-secondary-gray: #2c2c2c;
   --color-primary-light: #ffffff;
   --color-game-wood: #8e5412;
   --color-game-gray: #00000040;
   --color-game-darkgray: #00000069;
-  --upper: uppercase;
   --text-center: center;
 }
 
@@ -110,7 +110,7 @@ a {
 a.link {
   color: var(--color-primary-light);
   text-decoration: none;
-  text-transform: var(--upper);
+  text-transform: uppercase;
 }
 
 .link {
@@ -129,7 +129,7 @@ a.link {
 }
 
 .text-uppercase {
-  text-transform: var(--upper);
+  text-transform: uppercase;
 }
 
 /* --HEADER-- */
@@ -312,4 +312,47 @@ a.link {
 
 .tic-tac-toe__btn:hover {
   background: #33e06a;
+}
+
+/* -- FORM -- */
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+.contact-container {
+}
+
+.form-field {
+  margin-bottom: 10px;
+  color: var(--color-primary-gray);
+}
+
+.input__label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.input {
+  display: block;
+  width: 320px;
+  padding: 10px;
+  background: transparent;
+  color: var(--color-primary-light);
+  border: 1px solid var(--color-secondary-gray);
+}
+
+.input__control {
+  height: 40px;
+}
+
+.form-button {
+  margin-top: 10px;
+  padding: 10px;
+  background: var(--color-primary-gray);
+  border: 1px solid var(--color-secondary-gray);
+  border-radius: 4px;
+}
+
+.form-button:hover {
+  background: var(--color-secondary-gray);
+  color: var(--color-primary-gray);
 }
