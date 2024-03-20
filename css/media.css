@@ -20,9 +20,6 @@
   .header__burger {
     display: none;
   }
-}
-
-@media screen and (min-width: 768px) {
   .img {
     max-width: 100%;
     width: 400px;
@@ -30,5 +27,11 @@
     object-fit: cover;
     object-position: 60% 50%;
     padding-bottom: 0;
+  }
+}
+
+.portfolio-section__text {
+  @media screen and (max-width: 1199px) {
+    padding-bottom: 10px;
   }
 }

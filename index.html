@@ -71,7 +71,9 @@
               </p>
               <p><a href="#">Checkout my resume</a></p>
               <h4 class="mt-5 mb-4">Contact me here!</h4>
-              <div class="social-links d-flex justify-content-start mb-4">
+              <div
+                class="social-links d-flex justify-content-center justify-content-md-start mb-4"
+              >
                 <a href="#" target="_blank" class="p-3" title="Instagram"
                   ><i class="fa-brands fa-instagram" aria-hidden="true"></i
                 ></a>
@@ -95,20 +97,130 @@
       <section class="portfolio-section section" id="portfolio">
         <h3 class="fs-4 text-uppercase">portfolio</h3>
         <p class="text-center fs-2 fw-semibold">Checkout a few of my works</p>
-        <p class="text-center">(more coming soon)</p>
+        <p class="text-center pb-5">(more coming soon)</p>
         <article class="projects">
-          <div class="tic-tac-toe">
-            <a href="./tic-tac-toe.html" target="_blank">play tic tac toe</a>
+          <div class="container mb-5">
+            <div class="row">
+              <div
+                class="portfolio-section__project-description col text-center text-md-start"
+              >
+                <h2 class="text-uppercase pb-4">
+                  rv-<span class="text-lowercase">s</span> project
+                </h2>
+                <p class="portfolio-section__text">
+                  Step into the world of RV Cars, where luxury meets mobility.
+                </p>
+                <p class="portfolio-section__text">
+                  Our website is a gateway to exploring the epitome of
+                  sophisticated travel, offering an exclusive collection of
+                  state-of-the-art recreational vehicles that promise
+                  unparalleled comfort and performance.
+                </p>
+                <p class="portfolio-section__text">
+                  Every model is a blend of modern design, innovative
+                  technology, and robust engineering - ensuring your journeys
+                  are not just traveled but experienced.
+                </p>
+                <p class="portfolio-section__text">
+                  Navigate through our user-friendly interface, enriched with
+                  detailed imagery and comprehensive information that brings
+                  each model to life before your eyes. At RV Cars, we don’t just
+                  offer vehicles; we present moving masterpieces that redefine
+                  travel.
+                </p>
+                <a
+                  href="https://rv-site.netlify.app/"
+                  target="_blank"
+                  class="btn btn-outline-secondary p-3 text-uppercase"
+                  >view project</a
+                >
+              </div>
+              <div class="col d-none d-md-block">
+                <img src="./images/rv.png" alt="" class="img-fluid" />
+              </div>
+            </div>
           </div>
-          <div class="tic-tac-toe">
-            <a href="https://citycast-app.netlify.app/" target="_blank"
-              >weather project</a
-            >
+          <div class="container mb-5">
+            <div class="row">
+              <div class="col d-none d-md-block">
+                <img src="./images/TTT-project.png" alt="" class="img-fluid" />
+              </div>
+              <div
+                class="portfolio-section__project-description col text-center text-md-start pe-5"
+              >
+                <h2 class="text-uppercase pb-4">tic-tac-toe project</h2>
+                <p class="portfolio-section__text">
+                  Tic-tac-toe is a timeless paper-and-pencil game for two
+                  players, X and O, who take turns marking the spaces in a 3×3
+                  grid. The player who succeeds in placing three of their marks
+                  in a horizontal, vertical, or diagonal row wins the game.
+                </p>
+                <p class="portfolio-section__text">
+                  ## Starting the Game - The game is played on a grid that's 3
+                  squares by 3 squares. - Players decide who goes first. - One
+                  player chooses X and the other O.
+                </p>
+                <p class="portfolio-section__text">
+                  ## How to Win - The first player to get 3 of her marks in a
+                  row (up, down, across, or diagonally) is the winner. - When
+                  all 9 squares are full, the game is over. If no player has 3
+                  marks in a row, the game ends in a tie.
+                </p>
+                <p class="portfolio-section__text">
+                  Remember, tic-tac-toe is a solved game. With perfect play from
+                  both players, the game will always end in a tie.
+                </p>
+                <a
+                  href="./tic-tac-toe.html"
+                  target="_blank"
+                  class="btn btn-outline-secondary p-3 text-uppercase"
+                  >play tic tac toe</a
+                >
+              </div>
+            </div>
           </div>
-          <div class="tic-tac-toe">
-            <a href="https://rv-site.netlify.app/" target=":_blank"
-              >RVs project</a
-            >
+          <div class="container mb-5">
+            <div class="row">
+              <div
+                class="portfolio-section__project-description col text-center text-md-start"
+              >
+                <h2 class="text-uppercase pb-4">weather project</h2>
+                <p class="portfolio-section__text">
+                  Step into the world of RV Cars, where luxury meets mobility.
+                </p>
+                <p class="portfolio-section__text">
+                  Our website is a gateway to exploring the epitome of
+                  sophisticated travel, offering an exclusive collection of
+                  state-of-the-art recreational vehicles that promise
+                  unparalleled comfort and performance.
+                </p>
+                <p class="portfolio-section__text">
+                  Every model is a blend of modern design, innovative
+                  technology, and robust engineering - ensuring your journeys
+                  are not just traveled but experienced.
+                </p>
+                <p class="portfolio-section__text">
+                  Navigate through our user-friendly interface, enriched with
+                  detailed imagery and comprehensive information that brings
+                  each model to life before your eyes. At RV Cars, we don’t just
+                  offer vehicles; we present moving masterpieces that redefine
+                  travel.
+                </p>
+                <a
+                  href="https://citycast-app.netlify.app/"
+                  target="_blank"
+                  class="btn btn-outline-secondary p-3 text-uppercase"
+                  >view project</a
+                >
+              </div>
+              <div class="col d-none d-md-block">
+                <img
+                  src="./images/weather_project.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
           </div>
         </article>
       </section>
@@ -136,7 +248,7 @@
                 required
               />
             </div>
-            <div class="form-field">
+            <div class="form-field pb-3">
               <label class="input__label" for="user-message">Message:</label>
               <textarea
                 class="input"
@@ -144,7 +256,11 @@
                 id="user-message"
               ></textarea>
             </div>
-            <button class="form-button">Send Message</button>
+            <div class="text-center text-md-start">
+              <button class="btn btn-outline-secondary p-3 text-uppercase">
+                Send Message
+              </button>
+            </div>
           </form>
         </div>
       </section>
@@ -161,7 +277,7 @@
           ><i class="fa-brands fa-linkedin" aria-hidden="true"></i
         ></a>
       </div>
-      <p>
+      <p class="text-center text-body-light p-3">
         Designed and coded by Yevheniia Kovzikova and open-sourced on GitHub
       </p>
     </footer>

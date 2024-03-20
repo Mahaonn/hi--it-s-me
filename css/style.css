@@ -132,6 +132,11 @@ a.link {
   text-transform: uppercase;
 }
 
+.social-links {
+  color: var(--color-primary-gray);
+  font-size: 32px;
+}
+
 /* --HEADER-- */
 .header {
   width: 100%;
@@ -177,10 +182,10 @@ a.link {
 .about-section {
   padding: 50px 0;
 }
-/* 
+
 .img {
   width: 100%;
-} */
+}
 
 .about-section__text {
   color: var(--color-primary-gray);
@@ -194,6 +199,15 @@ a.link {
 /* --Portfolio section-- */
 .portfolio-section {
   padding-bottom: 60px;
+}
+
+.portfolio-section__text {
+  padding-bottom: 32px;
+  font-size: 14px;
+  color: var(--color-primary-gray);
+}
+
+.portfolio-section__btn {
 }
 /*  --Projects--  */
 .tic-tac-toe__main {
@@ -318,8 +332,6 @@ a.link {
 .contact-section {
   display: flex;
   justify-content: center;
-}
-.contact-container {
 }
 
 .form-field {
