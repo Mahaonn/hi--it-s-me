@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My personal page: Yevheniia Kovzikova - Front-end developer</title>
+    <title>Yevheniia Kovzikova - Work</title>
     <meta
       name="description"
       content="Hi! I'm a front-end developer with a strong interest in web technologies."
@@ -31,7 +31,7 @@
             <nav>
               <ul class="header__menu">
                 <li>
-                  <a href="index.html" class="link carrent-link">Home</a>
+                  <a href="index.html" class="link">Home</a>
                 </li>
                 <li>
                   <a href="./about.html" class="link">About</a>
@@ -40,7 +40,9 @@
                   <a href="index.html#service" class="link">Services</a>
                 </li>
                 <li>
-                  <a href="./work.html" class="link">Portfolio</a>
+                  <a href="index.html#portfolio" class="link carrent-link"
+                    >Portfolio</a
+                  >
                 </li>
                 <li><a href="index.html#contact" class="link">Contact</a></li>
               </ul>
@@ -87,52 +89,7 @@
       </div>
     </header>
     <main>
-      <section class="about-section section">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 pt-4 pt-lg-0 pe-md-5 pb-5 pb-md-0">
-              <img
-                src="./images/girl-programmer.jpg"
-                alt="Photo of girl programmer in glasses with computer"
-                class="img-fluid img float-end"
-              />
-            </div>
-            <div
-              class="col-12 col-md-6 pt-lg-3 pt-xl-4 text-center text-md-start"
-            >
-              <h2 class="mb-5">Hi! I'm Yevheniia Kovzikova</h2>
-              <p class="about-section__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                repudiandae consequuntur incidunt quae, optio autem iste
-                repellendus voluptate, distinctio saepe maxime qui totam
-                officiis adipisci quas eaque nobis ratione cum.
-              </p>
-              <p><a href="#">Checkout my resume</a></p>
-              <h4 class="mt-5 mb-2">Contact me here!</h4>
-              <div
-                class="social-links d-flex justify-content-center justify-content-md-start mb-4"
-              >
-                <a href="#" target="_blank" title="Instagram"
-                  ><i class="fa fa-instagram" aria-hidden="true"></i
-                ></a>
-                <a href="#" target="_blank" title="GitHub"
-                  ><i class="fa fa-github" aria-hidden="true"></i
-                ></a>
-                <a href="#" target="_blank" title="LinkedIn"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
-                ></a>
-              </div>
-              <p>E-mail: <a href="#">yevheniia_123@gmail.com</a></p>
-              <p>Phone: <a href="#">(012)345-67-89</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="service-section section" id="service">
-        <h3 class="fs-4 text-uppercase">what i do</h3>
-        <p class="text-center fs-2 fw-semibold">My services</p>
-      </section>
-      <section class="portfolio-section section" id="portfolio">
+      <section class="portfolio-section section pt-5">
         <h3 class="fs-4 text-uppercase">portfolio</h3>
         <p class="text-center fs-2 fw-semibold">Checkout a few of my works</p>
         <p class="text-center pb-5">(more coming soon)</p>
@@ -265,46 +222,6 @@
             </div>
           </div>
         </article>
-      </section>
-      <section class="contact-section section" id="contact">
-        <div class="contact-container">
-          <h2 class="mb-4">Contact Information</h2>
-          <form action="#" name="form">
-            <div class="form-field">
-              <label class="input__label" for="user-name">Name:</label>
-              <input
-                class="input__control input"
-                type="text"
-                name="user-name"
-                id="user-name"
-                required
-              />
-            </div>
-            <div class="form-field">
-              <label class="input__label" for="user-email">Email:</label>
-              <input
-                class="input__control input"
-                type="email"
-                name="user-email"
-                id="user-email"
-                required
-              />
-            </div>
-            <div class="form-field pb-3">
-              <label class="input__label" for="user-message">Message:</label>
-              <textarea
-                class="input"
-                name="user-message"
-                id="user-message"
-              ></textarea>
-            </div>
-            <div class="text-center text-md-start">
-              <button class="btn btn-outline-secondary p-3 text-uppercase">
-                Send Message
-              </button>
-            </div>
-          </form>
-        </div>
       </section>
     </main>
     <footer>
