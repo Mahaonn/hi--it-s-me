@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yevheniia Kovzikova - Work</title>
+    <title>My personal page: Yevheniia Kovzikova - Front-end developer</title>
     <meta
       name="description"
       content="Hi! I'm a front-end developer with a strong interest in web technologies."
@@ -31,7 +31,7 @@
             <nav>
               <ul class="header__menu">
                 <li>
-                  <a href="index.html" class="link">Home</a>
+                  <a href="index.html" class="link carrent-link">Home</a>
                 </li>
                 <li>
                   <a href="./about.html" class="link">About</a>
@@ -40,11 +40,9 @@
                   <a href="index.html#service" class="link">Services</a>
                 </li>
                 <li>
-                  <a href="./portfolio.html" class="link carrent-link"
-                    >Portfolio</a
-                  >
+                  <a href="./portfolio.html" class="link">Portfolio</a>
                 </li>
-                <li><a href="./contact.html" class="link">Contact</a></li>
+                <li><a href="index.html#contact" class="link">Contact</a></li>
               </ul>
             </nav>
             <button class="header__burger menu-btn-open" type="button">
@@ -70,7 +68,7 @@
                       <a href="./about.html" class="mobile__menu-link">About</a>
                     </li>
                     <li>
-                      <a href="#services" class="mobile__menu-link">Services</a>
+                      <a href="#" class="mobile__menu-link">Services</a>
                     </li>
                     <li>
                       <a href="./portfolio.html" class="mobile__menu-link"
@@ -78,9 +76,7 @@
                       >
                     </li>
                     <li>
-                      <a href="./contact.html" class="mobile__menu-link"
-                        >Contact</a
-                      >
+                      <a href="#contact" class="mobile__menu-link">Contact</a>
                     </li>
                   </ul>
                 </nav>
@@ -91,78 +87,44 @@
       </div>
     </header>
     <main>
-      <section class="work-section section pt-5">
-        <h3 class="fs-4 text-uppercase">portfolio</h3>
-        <p class="text-center fs-2 fw-semibold">Checkout a few of my works</p>
-        <p class="text-center pb-5">(more coming soon)</p>
-        <div class="work-section__content container">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="card m-3 p-5 bg-secondary">
-                <img
-                  src="./images/rv.jpg"
-                  class="card-img-top mb-5 shadow rounded"
-                  alt="RV PROJECT PHOTO"
-                />
-                <div class="card-body text-center">
-                  <h4 class="card-title fw-semibold">
-                    <a
-                      href="https://rv-site.netlify.app/"
-                      target="_blank"
-                      class="text-light"
-                      >RV-s PROJECT</a
-                    >
-                  </h4>
-                  <p class="card-text text-center">
-                    Built with HTML, CSS, JavaScript and Swiper library
-                  </p>
-                </div>
-              </div>
+      <section class="contact-section section">
+        <div class="contact-container">
+          <h2 class="mb-4">Contact Information</h2>
+          <form action="#" name="form">
+            <div class="form-field">
+              <label class="input__label" for="user-name">Name:</label>
+              <input
+                class="input__control input"
+                type="text"
+                name="user-name"
+                id="user-name"
+                required
+              />
             </div>
-            <div class="col-lg-6">
-              <div class="card m-3 p-5 bg-secondary">
-                <img
-                  src="./images/ttt-project.jpg"
-                  class="card-img-top shadow rounded"
-                  alt="TIC-TAC-TOE PROJECT PHOTO"
-                />
-                <div class="card-body">
-                  <h4 class="card-title text-center pt-3 fw-semibold">
-                    <a
-                      href="./tic-tac-toe.html"
-                      target="_blank"
-                      class="text-light"
-                      >TIC-TAC-TOE PROJECT</a
-                    >
-                  </h4>
-                  <p class="card-text text-center">
-                    Built with HTML, CSS, JavaScrip
-                  </p>
-                </div>
-              </div>
+            <div class="form-field">
+              <label class="input__label" for="user-email">Email:</label>
+              <input
+                class="input__control input"
+                type="email"
+                name="user-email"
+                id="user-email"
+                required
+              />
             </div>
-            <div class="col-lg-6">
-              <div class="card m-3 p-5 bg-secondary">
-                <img
-                  src="./images/weather_project.jpg"
-                  class="card-img-top mb-5 shadow rounded"
-                  alt="WEATHER PROJECT PHOTO"
-                />
-                <div class="card-body">
-                  <h4 class="card-title text-center fw-semibold">
-                    <a
-                      href="https://citycast-app.netlify.app/"
-                      class="text-light"
-                      >WEATHER PROJECT</a
-                    >
-                  </h4>
-                  <p class="card-text text-center">
-                    Built with HTML, CSS, JavaScript
-                  </p>
-                </div>
-              </div>
+            <div class="form-field pb-3">
+              <label class="input__label" for="user-message">Message:</label>
+              <textarea
+                class="input"
+                name="user-message"
+                id="user-message"
+              ></textarea>
             </div>
-          </div>
+            <div class="text-center text-md-start">
+              <button class="btn btn-outline-secondary p-3 text-uppercase">
+                Send Message
+              </button>
+            </div>
+          </form>
         </div>
       </section>
     </main>
