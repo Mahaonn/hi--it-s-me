@@ -271,7 +271,7 @@ header .social-links a {
   color: var(--color-primary-gray);
 }
 
-/*  --Projects--  */
+/*  --Tic-tac-toe--  */
 .tic-tac-toe__main {
   display: flex;
   flex-direction: column;
