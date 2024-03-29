@@ -415,7 +415,12 @@ header .social-links a {
 }
 
 .input__control {
+  font-size: 14px;
   height: 40px;
+}
+
+.textarea__control {
+  font-size: 14px;
 }
 
 .form-button {
