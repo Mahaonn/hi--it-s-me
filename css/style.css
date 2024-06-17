@@ -252,6 +252,7 @@ header .social-links a {
 }
 
 .about-section__text {
+  font-size: 13px;
   color: var(--color-primary-gray);
 }
 
