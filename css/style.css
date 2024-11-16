@@ -7,6 +7,7 @@
   --color-game-wood: #8e5412;
   --color-game-gray: #00000040;
   --color-game-darkgray: #00000069;
+  --color-link: rgb(111 156 222);
   --text-center: center;
 }
 
@@ -64,6 +65,7 @@ ul {
 }
 
 a {
+  color: var(--color-link);
   text-decoration: none;
 }
 
