@@ -29,6 +29,11 @@
     padding-bottom: 0;
   }
 }
+@media (max-width: 900px) {
+  .skill-icons-container {
+    padding: 25px 15px;
+  }
+}
 
 @media screen and (max-width: 1199px) {
   .portfolio-section__text {
