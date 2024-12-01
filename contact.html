@@ -122,13 +122,26 @@
       <section class="contact-section section">
         <div class="contact-container">
           <h2 class="mt-4 mb-4">Contact Information</h2>
-          <form action="#" name="form">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+
+            <div style="display: none">
+              <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+              /></label>
+            </div>
+
             <div class="form-field">
               <label class="input__label" for="user-name">Name:</label>
               <input
                 class="input__control input"
                 type="text"
-                name="user-name"
+                name="name"
                 id="user-name"
                 required
                 aria-required="true"
@@ -143,7 +156,7 @@
               <input
                 class="input__control input"
                 type="email"
-                name="user-email"
+                name="email"
                 id="user-email"
                 required
                 aria-required="true"
@@ -156,7 +169,7 @@
               <label class="input__label" for="user-message">Message:</label>
               <textarea
                 class="textarea__control input"
-                name="user-message"
+                name="message"
                 id="user-message"
                 cols="30"
                 rows="5"
