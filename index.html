@@ -406,16 +406,36 @@
       </section>
       <section class="contact-section section">
         <div class="contact-container">
-          <h2 class="mb-4">Contact Information</h2>
-          <form action="#" name="form">
+          <h2 class="mt-4 mb-4">Contact Information</h2>
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input
+              type="hidden"
+              name="subject"
+              value="Inquiry from mywebdevjourney.netlify.app"
+            />
+            <input type="hidden" name="form-name" value="contact" />
+            <div style="display: none">
+              <label
+                >Don’t fill this out if you're human: <input name="bot-field"
+              /></label>
+            </div>
             <div class="form-field">
               <label class="input__label" for="user-name">Name:</label>
               <input
                 class="input__control input"
                 type="text"
-                name="user-name"
+                name="name"
                 id="user-name"
                 required
+                aria-required="true"
+                spellcheck="false"
+                autocomplete="given-name"
+                maxlength="25"
                 placeholder="Just saying hi"
               />
             </div>
@@ -424,27 +444,30 @@
               <input
                 class="input__control input"
                 type="email"
-                name="user-email"
+                name="email"
                 id="user-email"
                 required
+                aria-required="true"
                 placeholder="example@gmail.com"
+                autocomplete="email"
+                spellcheck="false"
               />
             </div>
             <div class="form-field pb-3">
               <label class="input__label" for="user-message">Message:</label>
               <textarea
                 class="textarea__control input"
-                name="user-message"
+                name="message"
                 id="user-message"
                 cols="30"
                 rows="5"
-                placeholder="Let's talk about.."
+                placeholder="Let's work together!"
               ></textarea>
             </div>
             <div class="text-center text-md-start">
               <button
-                type="button"
                 class="btn btn-outline-secondary p-3 text-uppercase"
+                type="submit"
               >
                 Send Message
               </button>
