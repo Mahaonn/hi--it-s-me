@@ -281,7 +281,6 @@ header .social-links a {
   padding-top: 20px;
   text-align: center;
   transition: all 300ms ease-in-out;
-  fill: var(--color-primary-light);
 }
 
 .icon p {
