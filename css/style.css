@@ -309,6 +309,16 @@ header .social-links a {
   color: var(--color-primary-gray);
 }
 
+.card-background {
+  height: 720px;
+  object-fit: cover;
+}
+
+.card-img-size {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 /*  --Tic-tac-toe--  */
 .tic-tac-toe__main {
   display: flex;

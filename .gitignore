@@ -35,6 +35,6 @@ $RECYCLE.BIN/
 .gitattributes
 
 # Exclude specific image
-hi--it-s-mi.jpg
-rv-project.png
-weather_project.png
+# hi--it-s-mi.jpg
+# rv-project.png
+# weather_project.png
