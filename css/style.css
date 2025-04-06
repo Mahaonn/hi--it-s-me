@@ -88,10 +88,12 @@ body {
   line-height: 1.5;
   margin: 0;
 }
+
 h1,
 h2 {
   line-height: 1.5;
 }
+
 h1 {
   margin: 0;
   text-align: center;
@@ -201,6 +203,10 @@ header .social-links a {
 .header__burger {
   display: block;
   margin-right: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  fill: var(--color-primary-light);
 }
 
 .mobile-menu {
@@ -222,6 +228,9 @@ header .social-links a {
   position: absolute;
   top: 40px;
   right: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
 }
 
 .mobile-title {
