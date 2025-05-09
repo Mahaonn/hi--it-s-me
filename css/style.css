@@ -185,6 +185,7 @@ header .social-links a {
   text-align: var(--text-center);
   letter-spacing: 0.5em;
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -238,6 +239,18 @@ header .social-links a {
   background-color: transparent;
   color: white;
   border: none;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-menu__btn-close svg {
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.mobile-menu__btn-close:hover svg {
+  transform: rotate(180deg);
 }
 
 .mobile-title {
